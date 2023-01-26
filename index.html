@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Enter your details below</p>
+    <form>
+      <ul>
+        <li>
+          <div>
+            <input type="email" value="your_email@gmail.com" />
+          </div>
+        </li>
+        <br />
+        <li><input type="password" placeholder="Password" /></li>
+      </ul>
+    </form>
+    <p>
+      <em><strong>!Type a complex password with 8-20 characters.</strong></em>
+    </p>
+    <ul>
+      <li>
+        <form><input type="number" placeholder="+20 Phone Number" /></form>
+      </li>
+    </ul>
+    <hr />
+    <h3><em>Enter your profession:</em></h3>
+    <ul>
+      <li>
+        <input type="radio" name="profession" value="Student" />Student
+        <input type="radio" name="profession" value="Teacher" />Teacher
+        <input type="radio" name="profession" value="Developer" />Developer
+      </li>
+    </ul>
+    <p>
+      Choose the stage if you are(student)
+      <select name="drop-down" id="drop-down">
+        <option value="first">first primary</option>
+        <option value="second">Second primary</option>
+        <option value="third">First class</option>
+        <option value="fourth">Fourth class</option>
+        <option value="fifth">Fifth class</option>
+        <option value="sixth">sixth class</option>
+        <option value="seventh">seventh class</option>
+        <option value="eight">eight class</option>
+        <option value="ninth">ninth class</option>
+        <option value="tenth">tenth class</option>
+      </select>
+    </p>
+    <li>Enter your Birth date. <input type="date" name="date" /></li>
+    <hr />
+    <li><input type="text" name="notes" placeholder="Any notes" /></li>
+    <hr />
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </body>
+</html>
